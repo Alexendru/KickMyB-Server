@@ -1,6 +1,7 @@
 package org.kickmyb.server;
 
 import org.springframework.boot.web.server.ConfigurableWebServerFactory;
+import org.springframework.boot.web.server.Ssl;
 import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.stereotype.Component;
 
@@ -17,11 +18,11 @@ public class ConfigHTTP
     @Override
     public void customize(ConfigurableWebServerFactory factory) {
         // Config du certification auto-signé
-//        Ssl ssl = new Ssl();
-//        ssl.setKeyPassword("password");
-//        ssl.setKeyStore("keystore.jks");
-//        factory.setSsl(ssl);
+       //Ssl ssl = new Ssl();
+       //ssl.setKeyPassword("password");
+        // ssl.setKeyStore("keystore.jks");
+        //factory.setSsl(ssl);
         // TODO à changer pour modifier le port du serveur
-//        factory.setPort(8787);
+      factory.setPort(8080);
     }
 }

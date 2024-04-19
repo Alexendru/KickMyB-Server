@@ -1,0 +1,14 @@
+Où se trouvait la configuration à modifier ?
+-----------------------------------------------
+Dans le package org.kickmyb.server et dans la classe ConfigSecurity
+-----------------------------------------------
+
+Qu'est-ce que ça change dans l'application ?
+-----------------------------------------------
+Ça encrypte le mot de passe dans la base de donnée en un hashmap
+-----------------------------------------------
+
+Comment en pratique tu peux voir la différence, avec quel outil?
+-----------------------------------------------
+Avec SQL?
+-----------------------------------------------

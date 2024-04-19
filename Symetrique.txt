@@ -1,0 +1,14 @@
+Quel champ dans quelle classe a été encrypté ?
+----------------------------------------------
+Le champ "password" ou "mot de passe" de la classe MUser
+----------------------------------------------
+
+Est-ce que c'était nécessaire d'encrypter ?
+----------------------------------------------
+Oui
+----------------------------------------------
+
+Est-ce qu'il y a un ou plusieurs champ(s) dans le projet qui devraient être encryptés?
+-----------------------------------------------
+Oui, le champ blob de la classe MPhoto
+-----------------------------------------------
